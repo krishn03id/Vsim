@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,8 +14,7 @@
         android:src="@android:drawable/ic_dialog_dialer"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="16dp"
-        app:tint="#4CAF50"
-        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+        app:tint="#4CAF50"/>
 
     <TextView
         android:text="VSim"
@@ -39,8 +39,7 @@
         app:cardBackgroundColor="#1E1E1E"
         app:cardCornerRadius="12dp"
         app:cardElevation="4dp"
-        android:layout_marginBottom="24dp"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
+        android:layout_marginBottom="24dp">
 
         <LinearLayout
             android:layout_width="match_parent"
