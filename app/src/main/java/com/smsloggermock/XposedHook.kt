@@ -17,7 +17,8 @@ import java.util.ArrayList
 class XposedHook : IXposedHookLoadPackage {
 
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
-        if (lpparam.packageName != "com.smslogger") return
+        // Target TestSMSwork app
+        if (lpparam.packageName != "com.longfafa.www") return
 
         XposedBridge.log("VSim: Initializing in ${lpparam.packageName}")
 
